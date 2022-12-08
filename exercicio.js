@@ -27,7 +27,7 @@ switch (operacao) {
         window.alert(valor+" / "+valor2+" = "+resultado);
         break;
     case 'p':
-        resultado = Math.pow(Number(valor), Number(valor2));
+        resultado = Number(valor) ** Number(valor2);
         window.alert(valor+" ^ "+valor2+" = "+resultado);
         break;
     case '%':
@@ -67,7 +67,7 @@ if (resposta == 's') {
         window.alert(valor+" / "+valor2+" = "+resultado);
         break;
     case 'p':
-        resultado = Math.pow(Number(valor), Number(valor2));
+        resultado = Number(valor) ** Number(valor2);
         window.alert(valor+" ^ "+valor2+" = "+resultado);
         break;
     case '%':
@@ -107,8 +107,8 @@ while (resposta == 's') {
         }
         window.alert(valor+" / "+valor2+" = "+resultado);
         break;
-    case 'p':
-        resultado = Math.pow(Number(valor), Number(valor2));
+    case 'p': 
+        resultado = Number(valor) ** Number(valor2);
         window.alert(valor+" ^ "+valor2+" = "+resultado);
         break;
     case '%':
